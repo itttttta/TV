@@ -1,0 +1,46 @@
+.tag_wrap {
+  border: 2px solid #bdc3c7;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 100%;
+  line-height: 1.6em;
+  font-size: 14px;
+  padding: 7px;
+  resize: none;
+  transition: border-color 0.2s;
+  -webkit-transition: border-color 0.2s;
+  -moz-transition: border-color 0.2s;
+  -o-transition: border-color 0.2s;
+}
+
+.choice_tags {
+  height: 120px;
+}
+
+.choice_tag {
+  height: 30px;
+  line-height: 30px;
+  display: inline-block;
+  background-color: #39b94e;
+  margin: 5px 1px;
+  cursor: pointer;
+  color: #ffffff;
+  padding: 0 5px;
+}
+
+.tags {
+  height: 120px;
+  border-top: 2px solid #bdc3c7;
+}
+
+.tag {
+  margin: 5px;
+  height: 30px;
+  line-height: 30px;
+  cursor: pointer;
+  padding: 2px 8px;
+  display: inline-block;
+  border-radius: 4px;
+  color: #ffffff;
+  background-color: #39b94e;
+}
